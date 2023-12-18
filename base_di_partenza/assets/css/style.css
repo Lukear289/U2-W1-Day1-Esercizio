@@ -248,6 +248,42 @@ footer address {
     margin-left: auto;
     margin-right: auto;
   }
+  nav li {
+    display: inline-block;
+  }
+  article h1 {
+    font-size: 5.8rem;
+    line-height: 57px;
+  }
+  article h2 {
+    font-size: 18px;
+  }
+}
+main p {
+  font-size: 18px;
+  font-weight: 300;
+}
+main ul {
+  font-size: 18px;
+}
+main ol {
+  font-size: 18px;
+}
+table {
+  width: 32em;
+}
+footer p {
+  line-height: 25px;
+}
+footer address {
+  font-size: 22px;
+}
+@media screen and (min-width: 768px) {
+  body {
+    width: 99%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 @media screen and (min-width: 1200px) {
   body {
